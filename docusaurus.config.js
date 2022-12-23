@@ -56,10 +56,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
-        title: 'My Site',
+        title: 'TezDocs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'TezDocs Logo',
           src: 'img/logo.svg',
         },
         items: [
