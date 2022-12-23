@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tez Docs',
-  tagline: 'Tezos Developer documentation done right',
+  tagline: 'Tezos dev docs done right.',
   url: 'https://tezdocs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
